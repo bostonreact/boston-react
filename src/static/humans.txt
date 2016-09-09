@@ -2,8 +2,5 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Dan Pickett -- Co-Organizer -- @dpickett
 
-# THANKS
-
-    <name>

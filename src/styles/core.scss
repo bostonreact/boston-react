@@ -20,4 +20,20 @@
   *:after {
     box-sizing: inherit;
   }
+
+  body {
+    background-color: #2d2d2d; // react-gray
+  }
+
+  h1 {
+    color: #61dafb; //react-blue
+  }
+
+  .react-logo {
+    width: 400px;
+  }
+
+  .container {
+    text-align: center;
+  }
 }
