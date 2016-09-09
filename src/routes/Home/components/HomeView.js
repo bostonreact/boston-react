@@ -27,7 +27,7 @@ export const HomeView = () => (
           </a>
         </li>
         <li>
-          <a className="button" href="https://slack.bostonreact.com">
+          <a className="button" href="https://slack.bostonreact.org">
             <i className="fa fa-slack"></i>
             Slack
           </a>
