@@ -1,6 +1,14 @@
+$react-red: #cc7a6f;
+$react-grey: #2d2d2d;
+
+$fa-font-path: "../../node_modules/font-awesome/fonts/";
+@import "~font-awesome/scss/_variables";
+@import "~font-awesome/scss/_path";
+
 :global {
   @import 'base';
   @import '~normalize.css/normalize';
+  @import "~font-awesome/scss/font-awesome";
 
   // Some best-practice CSS that's useful for most apps
   // Just remove them if they're not what you want
@@ -22,7 +30,8 @@
   }
 
   body {
-    background-color: #2d2d2d; // react-gray
+    background-color: $react-grey; // react-gray
+    font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
   }
 
   h1 {
@@ -35,5 +44,34 @@
 
   .container {
     text-align: center;
+  }
+
+  .button {
+    background-color: $react-red;
+    color: #fafafa; //react-white
+    display: inline-block;
+    border: 5px solid $react-red;
+    font-weight: bold;
+    padding: 1.25rem 2rem;
+    text-decoration: none;
+  }
+
+  .button:hover {
+    background-color: $react-grey;
+  }
+
+  nav {
+    ul {
+      margin: 0;
+      padding: 0;
+    }
+    li {
+      display: inline-block;
+      margin-right: 5px;
+    }
+
+    i {
+      padding-right: 5px;
+    }
   }
 }

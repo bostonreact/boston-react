@@ -9,6 +9,31 @@ export const HomeView = () => (
       className="react-logo"
       src={LogoImage} />
     <h1>Boston ReactJS</h1>
+    <nav>
+      <ul>
+        <li>
+          <a className="button" href="https://www.meetup.com/boston-react/">Meetup</a>
+        </li>
+        <li>
+          <a className="button" href="https://github.com/bostonreact">
+            <i className="fa fa-github"></i>
+            Github
+          </a>
+        </li>
+        <li>
+          <a className="button" href="https://twitter.com/bostonreact">
+            <i className="fa fa-twitter"></i>
+            Twitter
+          </a>
+        </li>
+        <li>
+          <a className="button" href="https://slack.bostonreact.com">
+            <i className="fa fa-slack"></i>
+            Slack
+          </a>
+        </li>
+      </ul>
+    </nav>
   </div>
 )
 
